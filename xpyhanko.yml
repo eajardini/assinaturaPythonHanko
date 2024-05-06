@@ -1,0 +1,13 @@
+stamp-styles:
+    default:
+        type: text
+        background: __stamp__
+        stamp-text: "Signed by %(signer)s\nTimestamp: %(ts)s"
+        text-box-style:
+            font: NotoSerif-Regular.otf
+    noto-qr:
+        type: qr      
+        stamp-text: "Signed by %(signer)s\nTimestamp: %(ts)s\n%(url)s"
+        text-box-style:
+            font: NotoSerif-Regular.otf
+            leading: 13
